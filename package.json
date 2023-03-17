@@ -1,0 +1,12 @@
+{
+  "name": "test-git-dep",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:SVITY/test-git-dep.git",
+  "author": "Vitaly Solovyov <svity.developer@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "prebuild": "rm -fr dist && mkdir dist",
+    "build": "echo test-git-dep"
+  }
+}
